@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Practice</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="practice.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+        <!--FONTS-->
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body class="show">
+        <!--Favicon-->
+        <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+        <!--Box Icons-->
+        <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+        />
+
+        <!--NavBar-->
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="check">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label class="brand">ZARA</label>
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li>
+                  <div class="cart__icon">
+                      <div class="fas fa-shopping-cart"></div>
+                      <span class="item__total">0</span>
+                  </div>
+                </li>
+            </ul>
+        </nav>
+
+        <!----newspaper and articles---->
+        <div class="article">
+            
+            <img class="article1" src="https://cdn.dribbble.com/users/1849236/screenshots/13972040/zara_social_media_redesign_4x.png" alt="">
+
+            <div class="article-text">
+                <p>Zara is one of the largest international fashion companies. It belongs to Inditex, one of the world’s largest distribution groups.</p>
+                <p>The customer is at the heart of our unique business model, which includes design, production, distribution and sales through our extensive retail network.</p>
+            </div>
+
+            <img class="article2" src="https://i.pinimg.com/originals/53/3e/54/533e548b3c42c13b5a7fd1e9cf39e2a7.jpg" alt="">
+           
+        </div>
+
+        <!--products-->
+        <section class="section featured">
+            <div class="title">
+                <h1>PRODUCTS</h1>
+            </div>
+
+            <div class="product-center-container">
+
+                <ul id="autoWidth" class="cs-hidden">
+                    <!--FIRST CATEGORY-------------->
+                    <div class="product-header">tops</div>
+                    <li class="item-a">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./tops/IMG_5335.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="addToCart-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Ruffled T-Shirt</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱545.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-b">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./tops/IMG_5336.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Ruffled T-Shirt</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱695.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-c">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./tops/IMG_5337.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Shirt with Embroidered Collar</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱2495.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-d">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./tops/IMG_5339.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">V-neck Basic Shirt</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱545.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-e">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./tops/IMG_5340.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Striped T-shirt</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱1695.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-f">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./tops/IMG_5338.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Embroidered Collar Blouse</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱2295.00</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <div class="product-footer"></div>
+                </ul>
+
+                <!--SECOND CATEGORY-->
+
+                <ul id="autoWidth" class="cs-hidden">
+                    <div class="product-header">bottoms</div>
+                    <li class="item-a">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./bottoms/IMG_5355.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Belted Bermuda Shorts</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱1995.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-b">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./bottoms/IMG_5376.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">90's Full-Length Jeans</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱2495.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-c">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./bottoms/IMG_5357.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Skort with Bow</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱1696.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-d">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./bottoms/IMG_5358.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Mom-Fit Bermuda Shorts</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱1696.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-e">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./bottoms/IMG_5361.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Flared Jeans</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱2295.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-f">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./bottoms/IMG_5360.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">90's Full-Length Jeans</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱2495.00</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <div class="product-footer"></div>
+                </ul>
+                    
+
+
+                <!--<div class="product-header">bottoms</div>
+                <div class="product">
+                    <div class="product-header">
+                        <img src="./bottoms/IMG_5355.png" alt="" />
+                        <ul class="icons">
+                            <span><i class="bx bx-heart"></i></span>
+                            <span><i class="bx bx-shopping-bag"></i></span>
+                        </ul>
+                    </div>
+                    <div class="product-footer">
+                        <a href="./bottoms/IMG_5355.png">
+                            <h3 class="product-name">lorem ipsum</h3>
+                        </a>
+    
+                           <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <h4 class="price">P ahd</h4>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-header">
+                        <img src="./bottoms/IMG_5356.png" alt="" />
+                        <ul class="icons">
+                            <span><i class="bx bx-heart"></i></span>
+                            <span><i class="bx bx-shopping-bag"></i></span>
+                        </ul>
+                    </div>
+                    <div class="product-footer">
+                        <a href="./bottoms/IMG_5356.png">
+                            <h3 class="product-name">lorem ipsum</h3>
+                        </a>
+    
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <h4 class="price">P ahd</h4>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-header">
+                        <img src="./bottoms/IMG_5357.png" alt="" />
+                        <ul class="icons">
+                            <span><i class="bx bx-heart"></i></span>
+                            <span><i class="bx bx-shopping-bag"></i></span>
+                        </ul>
+                    </div>
+                    <div class="product-footer">
+                        <a href="./bottoms/IMG_5357.png">
+                            <h3 class="product-name">lorem ipsum</h3>
+                        </a>
+    
+                           <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <h4 class="price">P ahd</h4>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-header">
+                        <img src="./bottoms/IMG_5358.png" alt="" />
+                        <ul class="icons">
+                            <span><i class="bx bx-heart"></i></span>
+                            <span><i class="bx bx-shopping-bag"></i></span>
+                        </ul>
+                    </div>
+                    <div class="product-footer">
+                        <a href="./bottoms/IMG_5358.png">
+                            <h3 class="product-name">lorem ipsum</h3>
+                        </a>
+    
+                           <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <h4 class="price">P ahd</h4>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-header">
+                        <img src="./bottoms/IMG_5359.png" alt="" />
+                        <ul class="icons">
+                            <span><i class="bx bx-heart"></i></span>
+                            <span><i class="bx bx-shopping-bag"></i></span>
+                        </ul>
+                    </div>
+                    <div class="product-footer">
+                        <a href="./bottoms/IMG_5359.png">
+                            <h3 class="product-name">lorem ipsum</h3>
+                        </a>
+    
+                           <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <h4 class="price">P ahd</h4>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-header">
+                        <img src="./bottoms/IMG_5360.png" alt="" />
+                        <ul class="icons">
+                            <span><i class="bx bx-heart"></i></span>
+                            <span><i class="bx bx-shopping-bag"></i></span>
+                        </ul>
+                    </div>
+                    <div class="product-footer">
+                        <a href="./bottoms/IMG_5360.png">
+                            <h3 class="product-name">lorem ipsum</h3>
+                        </a>
+    
+                           <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                        <h4 class="price">P ahd</h4>
+                    </div>
+                </div> -->
+
+                <!--3RD PRODUCT---------->
+
+                <ul id="autoWidth" class="cs-hidden">
+                    <div class="product-header">dresses and jumpsuits</div>
+                    <li class="item-a">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./dresses and jumpsuits/IMG_5364.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Linen Blended Short Dress</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱2295.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-b">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./dresses and jumpsuits/IMG_5370.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Linen Shirt Dress</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱3295.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-c">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./dresses and jumpsuits/IMG_5366.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Floral Print Jumpsuit</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱2495.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-d">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./dresses and jumpsuits/IMG_5367.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Textured Jumpsuit</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱3295.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-e">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./dresses and jumpsuits/IMG_5368.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Printed Jumpsuit</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱4295.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-f">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./dresses and jumpsuits/IMG_5369.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Denim Jumpsuit</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱3295.00</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <div class="product-footer"></div>
+                </ul>
+
+                <!--4TH CATEGORY --------->
+
+                <ul id="autoWidth" class="cs-hidden">
+                    <div class="product-header">shoes and bags</div>
+                    <li class="item-a">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./shoes and bags/IMG_5346.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Leather Bucket Bag</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱4595.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-b">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./shoes and bags/IMG_5347.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Leather Bucket Handbag</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱5995.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-c">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./shoes and bags/IMG_5349.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Animal Print Mini City Bag</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱1495.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-d">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./shoes and bags/IMG_5350.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Leather Heeled Mules with Jute Insole</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱2995.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-e">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./shoes and bags/IMG_5352.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Flat Contrast-Coloured Sandals</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱2995.00</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-f">
+                        <div class="box">
+                            <div class="slide-img">
+                                <img src="./shoes and bags/IMG_5351.png" alt="" />
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="detail-box">
+                                <div class="type">
+                                    <ul class="icons">
+                                        <span><i class="bx bx-heart"></i></span>
+                                        <span><i class="bx bx-shopping-bag"></i></span>
+                                    </ul>
+
+                                    <a href="#" class="product-name">Strappy Leather High-Heel Sandals</a>
+
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                                <a href="#" class="price">₱3495.00</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="product__center">
+
+            </div>
+        </section>
+
+        <!-------------CART---------------->
+        <section class="cart__over">
+            <div class="cart">
+              <span class="close__cart">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#icon-cross"></use>
+                </svg>
+              </span>
+              <h1>Your Cart</h1>
+
+              <div class="cart__center">
+                  
+              </div>
+
+              <div class="cart__footer">
+                <h3>Total: $ <span class="cart__total">0</span></h3>
+                <button class="clear__cart btn">Clear Cart</button>
+              </div>
+            </div>
+        </section>
+
+        <footer class="footer"></footer>
+
+        <script src="practice.js"></script>
+    </body>
+</html>
